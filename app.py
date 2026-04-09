@@ -6,10 +6,12 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
+st.title("Streamlit Project")
+
 nltk.download('stopwords')
 
 words=stopwords.words('english')
-st.title("Streamlit Project")
+
 
 stemmer=PorterStemmer()
 
